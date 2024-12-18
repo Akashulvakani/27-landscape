@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        img{
+            height: 150px;
+        }
+        .div1{
+            display: flex;
+            flex-direction: row;
+            border: 5px solid red;
+            padding: 25px;
+            background-color: aqua;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .img1{
+            border: 5px solid blue;
+        }
+        @media screen and (min-width:2px) and (max-width:325px){
+            .img2,.img3,.lr2,.lr3{
+                display: none;
+            }
+        }
+        @media screen and (min-width:10px) and (max-width:325px){
+            .div1{
+                background-color: chocolate;
+            }
+        }
+        
+        .img2{
+            border: 5px solid lawngreen;
+        }
+        @media screen and (min-width:325px) and (max-width:475px){
+            .img1,.img3, .lr1,.lr3{
+                display: none;
+            }
+
+        }
+        .img3{
+            border: 5px solid lightsalmon;
+        }
+        @media screen and (min-width:475px) and (max-width:625px){
+            .img1,.img2, .lr1,.lr2{
+                display: none;
+            }
+
+        }
+        .lr1{
+            border: 5px solid black;
+            height: 70px;
+            width: 120px;
+            overflow: scroll;
+        }
+        .lr2{
+            border: 5px solid black;
+            height: 70px;
+            width: 120px;
+            overflow: scroll;
+        }
+        .lr3{
+            border: 5px solid black;
+            height: 70px;
+            width: 120px;
+            overflow: scroll;
+        }
+        
+
+        
+        @media screen  and (orientation:portrait){
+            .div1{
+                height: 200px;
+                border: 10px solid hotpink;
+                padding: 10px;
+                background-color: hotpink;
+            }
+        }
+        @media screen  and (orientation:landscape){
+            .div1{ 
+                height: 200px;
+                border: 5px solid violet;
+                padding: 10px;
+                background-color: blueviolet;
+            }
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        
+        <img class="img1" src="./pics/gandi.jpeg" alt="">
+        <div class="lr1">
+            <p>Mohandas Karamchand Gandhi[pron 1] (2 October 1869 – 30 January 1948) was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā (from Sanskrit, meaning great-souled or venerable), first applied to him in South Africa in 1914, is now used throughout the world.[2]
+
+                Born and raised in a Hindu family in coastal Gujarat, Gandhi trained in the law at the Inner Temple in London and was called to the bar at the age of 22. After two uncertain years in India, where he was unable to start a successful law practice, Gandhi moved to South Africa in 1893 to represent an Indian merchant in a lawsuit. He went on to live in South Africa for 21 years. Here, Gandhi raised a family and first employed nonviolent resistance in a campaign for civil rights. In 1915, aged 45, he returned to India and soon set about organising peasants, farmers, and urban labourers to protest against discrimination and excessive land tax.</p>
+        </div>
+
+        <img class="img2"  src="./pics/apj.webp" alt="">
+        <div class="lr2">
+            <p>Avul Pakir Jainulabdeen Abdul Kalam BR (/ˈəbdʊl kəˈlɑːm/ ⓘ; 15 October 1931 – 27 July 2015) was an Indian aerospace scientist and statesman who served as the 11th president of India from 2002 to 2007. Born and raised in a Muslim family in Rameswaram, Tamil Nadu, he studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts.[2] He thus came to be known as the Missile Man of India for his work on the development of ballistic missile and launch vehicle technology.[3][4][5] He also played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.[6]</p>
+        </div>
+        <img class="img3" src="./pics/vivekananda.webp" alt="">
+        <div class="lr3">
+            <p>Swami Vivekananda[a] (12 January 1863 – 4 July 1902), born Narendranath Datta[b] was an Indian Hindu monk, philosopher, author, religious teacher, and the chief disciple of the Indian mystic Ramakrishna.[4][5] He was a key figure in the introduction of Vedanta and Yoga to the Western world.[6][7][8] He is credited with raising interfaith awareness and bringing Hinduism to the status of a major world religion in the late nineteenth century.[9]
+
+                Born into an aristocratic Bengali Kayastha family in Calcutta, Vivekananda was inclined from a young age towards religion and spirituality. At the age of 18 he met Ramakrishna, later becoming a devoted follower and sannyasin (renunciate). After the death of Ramakrishna, Vivekananda toured the Indian subcontinent as a wandering monk and acquired first-hand knowledge of the often terrible living conditions of Indian people in then British India. In 1893 he traveled to the United States where he participated in the Parliament of Religions in Chicago. Here he delivered a famous speech beginning with the words: "Sisters and brothers of America ..." introducing the ancient Hindu religious tradition to Americans and speaking forcefully about the essential unity of all spiritual paths, and the necessity of embracing tolerance and renouncing fanaticism.[10][11] The speech made an extraordinary impression. One American newspaper described him as "an orator by divine right and undoubtedly the greatest figure at the Parliament".[12]
+                
+                After the great success of the Parliament, Vivekananda delivered hundreds of lectures across the United States, England, and Europe, disseminating the core tenets of Hindu philosophy. He founded the Vedanta Society of New York and the Vedanta Society of San Francisco (now Vedanta Society of Northern California),[13] which became the foundations for Vedanta Societies in the </p>
+        </div>
+    </di>
+</body>
+</html>
